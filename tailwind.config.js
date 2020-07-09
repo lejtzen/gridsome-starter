@@ -26,6 +26,10 @@ module.exports = {
         inset: {
             '1/2': '50%',
         },
+        container: {
+            center: true,
+            padding: '2rem',
+        },
     },
     variants: {},
     corePlugins: {},

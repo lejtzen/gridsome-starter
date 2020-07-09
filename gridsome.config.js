@@ -9,6 +9,9 @@ module.exports = {
     siteUrl: 'example.com',
     plugins: [
         {
+            use: 'gridsome-plugin-svg',
+        },
+        {
             use: '@gridsome/plugin-sitemap',
             options: {
                 cacheTime: 600000,

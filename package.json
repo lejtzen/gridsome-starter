@@ -7,11 +7,14 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.17"
   },
   "devDependencies": {
     "@gridsome/plugin-critical": "^0.1.6",
-    "@gridsome/plugin-sitemap": "^0.2.3",
-    "gridsome-plugin-tailwindcss": "^2.2.48"
+    "gridsome-plugin-tailwindcss": "^2.2.48",
+    "@gridsome/plugin-sitemap": "^0.3.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.0",
+    "gridsome-plugin-svg": "0.0.14"
   }
 }

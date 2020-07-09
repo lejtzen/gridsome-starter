@@ -12,8 +12,8 @@ export default {
 <static-query>
     query {
         metadata {
-            siteName,
-            siteUrl,
+            siteName
+            siteUrl
         }
     }
 </static-query>
