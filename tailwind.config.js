@@ -1,5 +1,12 @@
 module.exports = {
-  purge: false,
+  purge: {
+    content: [
+      './src/**/*.html',
+      './src/**/*.vue',
+      './src/**/*.js',
+      './src/**/*.svg',
+    ],
+  },
   target: 'relaxed',
   prefix: '',
   important: false,
@@ -22,9 +29,10 @@ module.exports = {
           shade: 'rgba(0,0,0,.06)',
         },
       },
-    },
-    inset: {
-      '1/2': '50%',
+      inset: {
+        '1/2': '50%',
+        full: '100%',
+      },
     },
     container: {
       center: true,
@@ -34,4 +42,8 @@ module.exports = {
   variants: {},
   corePlugins: {},
   plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
 }
