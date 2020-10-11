@@ -2,25 +2,10 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 // Layouts
-import DefaultLayout from '~/layouts/Default.vue'
+import DefaultLayout from '@/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
-
-  Vue.directive('resize', {
-    bind(element) {
-      element.style.height = 'auto'
-      element.style.height = element.scrollHeight + 'px'
-    },
-    inserted(element) {
-      element.style.height = 'auto'
-      element.style.height = element.scrollHeight + 'px'
-    },
-    update(element) {
-      element.style.height = 'auto'
-      element.style.height = element.scrollHeight + 'px'
-    },
-  })
 
   head.htmlAttrs = {
     lang: 'en',
