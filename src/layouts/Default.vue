@@ -1,21 +1,9 @@
 <template>
   <div>
-    <SiteHeader />
-    <main>
-      <slot />
-    </main>
-    <SiteFooter />
+    <slot />
   </div>
 </template>
 
 <script>
-import SiteHeader from '@/components/SiteHeader.vue'
-import SiteFooter from '@/components/SiteFooter.vue'
-
-export default {
-  components: {
-    SiteHeader,
-    SiteFooter,
-  },
-}
+export default {}
 </script>
