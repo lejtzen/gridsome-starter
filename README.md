@@ -1,3 +1,5 @@
+![Gridsome Starter Template](https://repository-images.githubusercontent.com/269549792/192b7780-0e00-11eb-8388-26098a934797 "Gridsome Starter Template")
+
 # Gridsome Starter Template
 
 Gridsome static Vue site generator template for your next JAMStack project.
