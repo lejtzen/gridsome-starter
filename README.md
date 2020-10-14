@@ -1,4 +1,4 @@
-# Gridsome Template
+# Gridsome Starter Template
 
 Gridsome static Vue site generator template for your next JAMStack project.
 
