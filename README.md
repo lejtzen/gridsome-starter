@@ -1,4 +1,8 @@
-# Gridsome Starter
+![Gridsome Starter Template](https://repository-images.githubusercontent.com/269549792/192b7780-0e00-11eb-8388-26098a934797 'Gridsome Starter Template')
+
+# Gridsome Starter Template
+
+Gridsome static Vue site generator template for your next JAMStack project.
 
 ## Develop locally
 
@@ -14,10 +18,12 @@
 
 Run `gridsome develop` to start a local dev server at `http://localhost:8080`
 
-### 4. Build
+## Publish
+
+### 1. Build
 
 Use `gridsome build` to generate static files in a `/dist` folder
 
-### 5. Publish
+### 2. Publish
 
 Publish contents of `/dist` folder in the public folder of your web server or read more about [Gridsome deployment](https://gridsome.org/docs/deployment/)
