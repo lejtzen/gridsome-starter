@@ -27,7 +27,7 @@ export default function (Vue, { router, head, isClient }) {
     },
     {
       name: 'apple-mobile-web-app-title',
-      content: 'Gridsome Template',
+      content: 'Gridsome Starter',
     },
     {
       name: 'apple-mobile-web-app-status-bar-style',
