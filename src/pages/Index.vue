@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>Gridsome Template</h1>
+    <h1>Gridsome Starter</h1>
   </Layout>
 </template>
 
@@ -8,11 +8,11 @@
 export default {
   metaInfo: {
     titleTemplate: '%s',
-    title: 'Gridsome Template',
+    title: 'Gridsome Starter',
     meta: [
       {
         name: 'description',
-        content: 'Gridsome template to use for new projects.',
+        content: 'Gridsome starter to use for new projects.',
       },
     ],
   },

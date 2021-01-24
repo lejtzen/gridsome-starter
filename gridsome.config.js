@@ -5,8 +5,11 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Template',
+  siteName: 'Gridsome Starter',
   siteUrl: 'example.com',
+  permalinks: {
+    trailingSlash: false,
+  },
   plugins: [
     {
       use: 'gridsome-plugin-svg',
@@ -38,11 +41,14 @@ module.exports = {
       },
     },
     {
-      use: '@gridsome/plugin-critical',
+      use: 'gridsome-plugin-gtag',
       options: {
-        paths: ['/'],
-        width: 1300,
-        height: 900,
+        config: {
+          id: process.env.GRIDSOME_GOOGLE_ANALYTICS,
+          enabled:
+            process.env.NODE_ENV === 'production' &&
+            process.env.GRIDSOME_GOOGLE_ANALYTICS,
+        },
       },
     },
   ],
