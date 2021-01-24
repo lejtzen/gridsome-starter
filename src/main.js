@@ -9,6 +9,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.htmlAttrs = {
     lang: 'en',
+    class: 'bg-white text-dark-primary',
   }
 
   head.meta.push(
