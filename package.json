@@ -23,7 +23,7 @@
     "eslint-plugin-vue": "^7.4.1",
     "gridsome-plugin-gtag": "^0.1.10",
     "gridsome-plugin-svg": "0.0.14",
-    "gridsome-plugin-tailwindcss": "^2.2.48",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
     "prettier": "^2.2.1"
   }
 }
